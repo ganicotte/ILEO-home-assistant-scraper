@@ -26,4 +26,4 @@ schema:
   mqtt_user: str
   mqtt_password: password
   mqtt_topic: str
-image: "ghcr.io/ganicotte/ileo-home-assistant-scraper/{arch}"
+image: "ghcr.io/ganicotte/ileo-home-assistant-scraper"
