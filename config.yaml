@@ -26,4 +26,3 @@ schema:
   mqtt_user: str
   mqtt_password: password
   mqtt_topic: str
-image: "pbranly/ileo-home-assistant-scraper"
