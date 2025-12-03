@@ -1,5 +1,5 @@
 name: "ILEO Scraper"
-version: "1.0.0"
+version: "latest"
 slug: "ileo_scraper"
 description: "Récupère la consommation d'eau ILEO et l'envoie via MQTT."
 url: "https://github.com/pbranly/ILEO-home-assistant-scraper"
