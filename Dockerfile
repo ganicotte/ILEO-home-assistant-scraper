@@ -19,5 +19,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . /app
 WORKDIR /app
 
+# Copie du script de lancement
+COPY run.sh /run.sh
+RUN chmod a+x /run.sh
+
 # Commande par défaut pour exécuter le script
-CMD ["python", "main.py"]
+CMD ["/run.sh"]

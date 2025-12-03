@@ -1,0 +1,29 @@
+name: "ILEO Scraper"
+version: "1.0.0"
+slug: "ileo_scraper"
+description: "Récupère la consommation d'eau ILEO et l'envoie via MQTT."
+url: "https://github.com/pbranly/ILEO-home-assistant-scraper"
+startup: application
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+options:
+  ileo_login: "ton_email@example.com"
+  ileo_password: "ton_mot_de_passe"
+  mqtt_host: "192.168.x.yy"
+  mqtt_port: 1883
+  mqtt_user: "mon_user"
+  mqtt_password: "mon_pass"
+  mqtt_topic: "eau/consommation"
+schema:
+  ileo_login: str
+  ileo_password: password
+  mqtt_host: str
+  mqtt_port: int
+  mqtt_user: str
+  mqtt_password: password
+  mqtt_topic: str
+image: "pbranly/ileo-home-assistant-scraper"
